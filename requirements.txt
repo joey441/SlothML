@@ -1,0 +1,14 @@
+# Core Framework
+fastapi==0.143.3
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+
+# ML / AI Engine
+tabpfn==9.2.0
+scikit-learn==1.7.2
+numpy==2.3.2
+torch>=2.0.0
+
+# Data Handling
+pandas==2.3.2
+openpyxl==3.1.5

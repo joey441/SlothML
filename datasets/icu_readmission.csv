@@ -1,0 +1,401 @@
+PatientID,Age,BloodPressure,HeartRate,BloodGlucose,DaysInICU,PriorAdmissions,ComorbidityIndex,PatientOutcome
+PAT-5000,52,120,59,135,16,2,1,Stable Discharge
+PAT-5001,33,171,80,121,19,3,2,Stable Discharge
+PAT-5002,51,101,84,161,9,4,0,High Risk Readmission
+PAT-5003,45,173,108,240,14,2,3,High Risk Readmission
+PAT-5004,50,138,67,91,17,1,3,Stable Discharge
+PAT-5005,33,121,83,180,5,1,4,High Risk Readmission
+PAT-5006,56,120,57,176,2,2,1,Stable Discharge
+PAT-5007,52,173,112,252,20,0,4,Stable Discharge
+PAT-5008,82,130,56,136,16,1,0,Stable Discharge
+PAT-5009,44,149,129,257,14,1,3,Stable Discharge
+PAT-5010,73,158,82,255,14,0,0,Stable Discharge
+PAT-5011,51,151,56,209,1,1,0,High Risk Readmission
+PAT-5012,38,163,61,138,3,1,1,High Risk Readmission
+PAT-5013,53,155,80,153,7,1,0,Stable Discharge
+PAT-5014,78,96,70,172,15,1,3,High Risk Readmission
+PAT-5015,61,149,77,108,19,4,4,High Risk Readmission
+PAT-5016,55,174,94,82,20,2,3,High Risk Readmission
+PAT-5017,30,132,114,110,2,2,1,Stable Discharge
+PAT-5018,38,174,127,126,19,1,3,Stable Discharge
+PAT-5019,65,172,86,250,9,1,2,Stable Discharge
+PAT-5020,41,123,69,81,19,0,4,Stable Discharge
+PAT-5021,78,120,67,82,5,0,2,Stable Discharge
+PAT-5022,53,129,59,189,18,2,2,Stable Discharge
+PAT-5023,75,173,129,166,16,0,1,High Risk Readmission
+PAT-5024,48,161,128,126,4,0,0,High Risk Readmission
+PAT-5025,81,123,106,109,12,2,2,Stable Discharge
+PAT-5026,83,128,95,187,7,0,3,High Risk Readmission
+PAT-5027,66,135,107,149,14,2,0,Stable Discharge
+PAT-5028,57,135,104,197,12,0,3,High Risk Readmission
+PAT-5029,86,117,69,242,3,3,3,High Risk Readmission
+PAT-5030,35,165,61,104,5,1,0,Stable Discharge
+PAT-5031,78,97,94,72,17,2,0,High Risk Readmission
+PAT-5032,47,152,82,189,10,1,3,High Risk Readmission
+PAT-5033,75,126,86,74,10,1,1,High Risk Readmission
+PAT-5034,59,125,69,80,11,2,4,Stable Discharge
+PAT-5035,49,176,124,195,17,2,4,High Risk Readmission
+PAT-5036,86,137,119,140,5,2,1,High Risk Readmission
+PAT-5037,34,101,58,186,13,1,0,Stable Discharge
+PAT-5038,36,95,65,253,10,0,3,High Risk Readmission
+PAT-5039,72,155,80,207,9,2,4,High Risk Readmission
+PAT-5040,28,108,115,175,17,1,3,Stable Discharge
+PAT-5041,56,146,91,185,1,3,1,Stable Discharge
+PAT-5042,35,100,77,231,4,5,3,High Risk Readmission
+PAT-5043,83,104,94,136,4,2,1,Stable Discharge
+PAT-5044,81,165,77,100,18,1,0,Stable Discharge
+PAT-5045,31,124,70,144,9,2,1,Stable Discharge
+PAT-5046,62,115,115,140,18,1,1,Stable Discharge
+PAT-5047,86,154,122,135,14,1,4,High Risk Readmission
+PAT-5048,30,175,85,139,15,1,3,Stable Discharge
+PAT-5049,81,168,107,110,6,2,4,Stable Discharge
+PAT-5050,72,157,79,229,10,2,2,Stable Discharge
+PAT-5051,67,136,98,89,15,0,1,Stable Discharge
+PAT-5052,34,145,66,254,4,1,2,High Risk Readmission
+PAT-5053,54,158,63,247,18,0,4,High Risk Readmission
+PAT-5054,28,170,66,222,18,1,3,Stable Discharge
+PAT-5055,54,150,123,209,17,1,4,Stable Discharge
+PAT-5056,43,174,108,108,12,0,3,Stable Discharge
+PAT-5057,65,135,108,214,7,0,3,Stable Discharge
+PAT-5058,34,126,82,114,16,1,0,Stable Discharge
+PAT-5059,71,109,110,208,11,1,1,Stable Discharge
+PAT-5060,50,156,123,139,14,1,4,Stable Discharge
+PAT-5061,68,121,112,194,3,2,3,Stable Discharge
+PAT-5062,86,122,129,220,19,2,4,High Risk Readmission
+PAT-5063,38,175,96,160,18,3,4,Stable Discharge
+PAT-5064,69,158,92,139,10,4,3,High Risk Readmission
+PAT-5065,80,153,122,235,6,1,2,Stable Discharge
+PAT-5066,60,152,107,199,13,1,1,Stable Discharge
+PAT-5067,77,96,87,153,10,1,1,Stable Discharge
+PAT-5068,63,130,125,158,18,2,0,Stable Discharge
+PAT-5069,64,165,110,148,20,2,0,High Risk Readmission
+PAT-5070,68,107,126,182,16,0,0,High Risk Readmission
+PAT-5071,86,109,105,162,6,1,1,Stable Discharge
+PAT-5072,44,154,128,141,13,1,2,Stable Discharge
+PAT-5073,62,116,97,234,4,1,1,Stable Discharge
+PAT-5074,75,157,69,118,14,1,1,Stable Discharge
+PAT-5075,32,169,92,121,1,1,1,Stable Discharge
+PAT-5076,75,168,69,102,20,1,1,Stable Discharge
+PAT-5077,59,119,59,91,5,2,2,High Risk Readmission
+PAT-5078,30,142,108,183,8,0,0,Stable Discharge
+PAT-5079,79,137,105,202,12,2,4,High Risk Readmission
+PAT-5080,74,132,64,87,2,0,0,Stable Discharge
+PAT-5081,62,135,66,235,12,0,0,Stable Discharge
+PAT-5082,79,139,58,187,5,0,4,Stable Discharge
+PAT-5083,41,134,72,186,5,0,1,Stable Discharge
+PAT-5084,75,111,90,106,13,2,2,High Risk Readmission
+PAT-5085,58,151,79,133,9,1,2,Stable Discharge
+PAT-5086,58,96,90,207,10,1,0,Stable Discharge
+PAT-5087,44,156,121,148,1,5,4,High Risk Readmission
+PAT-5088,87,103,63,239,3,0,3,High Risk Readmission
+PAT-5089,51,162,115,192,18,2,1,Stable Discharge
+PAT-5090,79,175,107,245,12,4,0,Stable Discharge
+PAT-5091,50,111,72,113,3,4,2,High Risk Readmission
+PAT-5092,45,144,97,151,9,3,4,High Risk Readmission
+PAT-5093,77,134,89,156,2,2,4,High Risk Readmission
+PAT-5094,81,152,117,85,3,1,0,High Risk Readmission
+PAT-5095,41,169,58,123,14,0,3,High Risk Readmission
+PAT-5096,77,179,95,171,4,0,2,Stable Discharge
+PAT-5097,42,115,99,232,19,1,0,High Risk Readmission
+PAT-5098,42,112,104,167,13,2,3,Stable Discharge
+PAT-5099,33,149,82,225,7,3,4,High Risk Readmission
+PAT-5100,54,123,96,71,12,2,1,Stable Discharge
+PAT-5101,42,118,123,163,3,0,2,Stable Discharge
+PAT-5102,77,168,55,210,9,1,2,Stable Discharge
+PAT-5103,63,111,93,238,2,1,3,Stable Discharge
+PAT-5104,82,112,71,128,9,2,0,Stable Discharge
+PAT-5105,35,136,89,138,12,1,4,Stable Discharge
+PAT-5106,42,178,100,188,12,4,3,High Risk Readmission
+PAT-5107,30,139,96,161,15,1,1,Stable Discharge
+PAT-5108,74,176,93,250,2,1,1,High Risk Readmission
+PAT-5109,40,111,103,114,18,0,1,Stable Discharge
+PAT-5110,68,167,116,217,13,2,3,High Risk Readmission
+PAT-5111,61,108,92,93,14,0,4,Stable Discharge
+PAT-5112,51,143,77,258,5,1,2,Stable Discharge
+PAT-5113,67,123,76,160,10,1,0,Stable Discharge
+PAT-5114,59,98,58,163,12,2,2,Stable Discharge
+PAT-5115,59,176,103,127,10,2,4,Stable Discharge
+PAT-5116,57,114,113,224,11,1,2,Stable Discharge
+PAT-5117,79,141,127,223,2,0,3,High Risk Readmission
+PAT-5118,76,103,122,197,5,3,1,Stable Discharge
+PAT-5119,40,171,125,76,7,0,4,High Risk Readmission
+PAT-5120,28,173,56,239,6,5,4,High Risk Readmission
+PAT-5121,61,121,103,116,3,1,2,Stable Discharge
+PAT-5122,42,109,85,122,13,1,3,Stable Discharge
+PAT-5123,71,113,94,256,3,0,2,Stable Discharge
+PAT-5124,41,146,102,107,6,0,2,Stable Discharge
+PAT-5125,84,120,105,122,11,2,4,High Risk Readmission
+PAT-5126,56,120,97,212,17,3,2,High Risk Readmission
+PAT-5127,61,120,109,223,10,4,1,Stable Discharge
+PAT-5128,45,140,103,117,12,3,2,Stable Discharge
+PAT-5129,81,143,111,164,17,2,1,Stable Discharge
+PAT-5130,34,176,69,216,4,2,4,High Risk Readmission
+PAT-5131,56,147,81,206,2,3,3,High Risk Readmission
+PAT-5132,82,97,122,133,11,0,1,Stable Discharge
+PAT-5133,58,160,118,162,7,0,3,Stable Discharge
+PAT-5134,52,136,84,251,2,4,3,High Risk Readmission
+PAT-5135,65,113,90,194,18,2,1,Stable Discharge
+PAT-5136,41,111,121,248,4,2,4,Stable Discharge
+PAT-5137,35,127,103,108,8,1,0,Stable Discharge
+PAT-5138,54,170,109,73,20,2,3,Stable Discharge
+PAT-5139,81,143,110,195,14,2,3,Stable Discharge
+PAT-5140,29,150,122,72,12,4,4,Stable Discharge
+PAT-5141,44,157,98,133,18,1,4,High Risk Readmission
+PAT-5142,64,97,85,98,11,1,2,Stable Discharge
+PAT-5143,41,143,112,185,8,1,4,High Risk Readmission
+PAT-5144,52,149,107,80,2,0,3,High Risk Readmission
+PAT-5145,83,120,77,166,15,0,1,Stable Discharge
+PAT-5146,57,166,82,171,9,0,0,Stable Discharge
+PAT-5147,56,146,70,255,19,2,2,High Risk Readmission
+PAT-5148,47,101,91,224,20,2,1,Stable Discharge
+PAT-5149,48,140,75,90,8,1,0,Stable Discharge
+PAT-5150,80,140,71,108,19,1,0,High Risk Readmission
+PAT-5151,49,110,91,171,5,0,0,Stable Discharge
+PAT-5152,62,118,73,115,11,2,1,Stable Discharge
+PAT-5153,64,155,84,135,15,1,2,Stable Discharge
+PAT-5154,43,148,99,160,8,1,2,Stable Discharge
+PAT-5155,77,156,72,233,19,1,0,Stable Discharge
+PAT-5156,85,95,116,180,8,2,1,Stable Discharge
+PAT-5157,76,143,90,151,19,4,0,High Risk Readmission
+PAT-5158,70,119,106,192,18,1,4,High Risk Readmission
+PAT-5159,44,104,73,168,10,0,2,Stable Discharge
+PAT-5160,43,174,98,104,7,3,3,High Risk Readmission
+PAT-5161,85,110,61,228,9,1,0,High Risk Readmission
+PAT-5162,82,152,98,225,1,0,4,Stable Discharge
+PAT-5163,29,166,122,172,19,0,2,Stable Discharge
+PAT-5164,31,123,88,198,5,2,1,High Risk Readmission
+PAT-5165,48,100,120,94,19,1,2,Stable Discharge
+PAT-5166,66,110,123,112,1,5,1,High Risk Readmission
+PAT-5167,61,114,109,153,15,2,1,Stable Discharge
+PAT-5168,57,174,64,120,16,2,0,Stable Discharge
+PAT-5169,33,165,96,199,7,0,0,High Risk Readmission
+PAT-5170,44,172,95,195,12,2,2,Stable Discharge
+PAT-5171,66,137,123,138,8,3,4,High Risk Readmission
+PAT-5172,52,120,64,78,5,3,2,High Risk Readmission
+PAT-5173,32,172,64,71,10,2,3,Stable Discharge
+PAT-5174,32,165,114,231,5,1,1,Stable Discharge
+PAT-5175,47,127,105,257,17,1,1,High Risk Readmission
+PAT-5176,43,120,75,258,5,1,0,Stable Discharge
+PAT-5177,78,139,62,228,15,1,4,High Risk Readmission
+PAT-5178,68,178,119,79,13,1,0,High Risk Readmission
+PAT-5179,64,157,84,183,1,2,3,High Risk Readmission
+PAT-5180,67,161,103,145,11,5,2,High Risk Readmission
+PAT-5181,36,146,63,233,1,1,2,Stable Discharge
+PAT-5182,32,162,71,154,11,1,4,High Risk Readmission
+PAT-5183,69,120,123,118,18,2,0,Stable Discharge
+PAT-5184,84,169,112,139,18,1,0,High Risk Readmission
+PAT-5185,29,96,111,246,16,0,3,Stable Discharge
+PAT-5186,36,108,116,200,13,3,2,Stable Discharge
+PAT-5187,70,124,106,202,7,3,0,High Risk Readmission
+PAT-5188,63,143,115,258,1,5,4,High Risk Readmission
+PAT-5189,49,106,94,159,16,2,2,Stable Discharge
+PAT-5190,49,138,92,95,1,0,3,High Risk Readmission
+PAT-5191,49,127,97,141,17,1,4,Stable Discharge
+PAT-5192,61,107,117,74,6,3,1,Stable Discharge
+PAT-5193,82,172,73,84,2,4,3,High Risk Readmission
+PAT-5194,56,120,104,192,17,4,4,High Risk Readmission
+PAT-5195,65,115,87,213,6,2,0,Stable Discharge
+PAT-5196,86,122,67,70,14,1,1,Stable Discharge
+PAT-5197,73,142,116,213,18,1,3,High Risk Readmission
+PAT-5198,60,134,97,234,6,1,0,Stable Discharge
+PAT-5199,45,160,103,72,10,0,1,Stable Discharge
+PAT-5200,34,167,90,249,18,2,2,Stable Discharge
+PAT-5201,28,173,64,116,9,2,0,Stable Discharge
+PAT-5202,60,171,60,164,8,0,4,Stable Discharge
+PAT-5203,28,117,111,82,10,1,3,Stable Discharge
+PAT-5204,51,175,55,189,17,2,1,Stable Discharge
+PAT-5205,31,142,125,124,6,2,0,Stable Discharge
+PAT-5206,31,96,112,218,14,3,2,High Risk Readmission
+PAT-5207,45,178,75,135,6,2,3,Stable Discharge
+PAT-5208,54,114,110,251,7,4,3,Stable Discharge
+PAT-5209,70,153,74,224,12,2,0,Stable Discharge
+PAT-5210,86,140,108,235,3,1,2,Stable Discharge
+PAT-5211,59,97,79,159,14,0,1,Stable Discharge
+PAT-5212,60,149,82,255,19,2,0,High Risk Readmission
+PAT-5213,55,106,59,131,16,2,1,Stable Discharge
+PAT-5214,69,134,75,171,7,3,3,High Risk Readmission
+PAT-5215,68,160,72,243,8,1,1,High Risk Readmission
+PAT-5216,82,172,101,208,18,2,2,Stable Discharge
+PAT-5217,63,110,124,77,13,3,4,High Risk Readmission
+PAT-5218,87,177,111,166,9,0,2,Stable Discharge
+PAT-5219,33,128,73,186,10,1,1,Stable Discharge
+PAT-5220,43,138,119,133,9,3,0,Stable Discharge
+PAT-5221,61,100,57,90,15,1,3,Stable Discharge
+PAT-5222,50,171,96,184,20,1,4,Stable Discharge
+PAT-5223,77,158,75,154,2,4,0,Stable Discharge
+PAT-5224,69,116,94,89,13,0,0,Stable Discharge
+PAT-5225,51,112,121,77,2,2,2,Stable Discharge
+PAT-5226,83,106,79,127,19,4,1,Stable Discharge
+PAT-5227,76,146,109,115,2,2,2,Stable Discharge
+PAT-5228,40,145,106,100,3,2,1,Stable Discharge
+PAT-5229,83,165,98,162,6,2,2,High Risk Readmission
+PAT-5230,45,142,110,78,3,1,0,Stable Discharge
+PAT-5231,81,113,109,84,10,1,3,High Risk Readmission
+PAT-5232,40,100,124,163,6,2,1,Stable Discharge
+PAT-5233,76,178,127,223,16,1,4,Stable Discharge
+PAT-5234,64,121,120,207,17,2,4,High Risk Readmission
+PAT-5235,70,147,73,98,19,0,0,Stable Discharge
+PAT-5236,66,142,61,149,3,0,2,High Risk Readmission
+PAT-5237,69,101,117,105,18,2,2,Stable Discharge
+PAT-5238,44,153,96,153,7,3,0,High Risk Readmission
+PAT-5239,42,163,96,178,9,0,4,Stable Discharge
+PAT-5240,45,105,113,187,20,3,4,High Risk Readmission
+PAT-5241,50,109,74,106,12,2,2,High Risk Readmission
+PAT-5242,81,158,127,155,5,3,1,High Risk Readmission
+PAT-5243,78,97,71,140,3,1,3,High Risk Readmission
+PAT-5244,57,163,81,220,11,2,1,Stable Discharge
+PAT-5245,85,117,101,238,4,0,4,High Risk Readmission
+PAT-5246,61,147,56,162,5,2,1,Stable Discharge
+PAT-5247,85,131,117,149,1,1,3,Stable Discharge
+PAT-5248,31,103,116,171,18,0,1,Stable Discharge
+PAT-5249,30,109,73,225,12,3,1,Stable Discharge
+PAT-5250,34,97,71,245,13,1,1,Stable Discharge
+PAT-5251,83,164,123,235,9,2,1,High Risk Readmission
+PAT-5252,45,111,93,228,2,1,0,High Risk Readmission
+PAT-5253,69,120,125,83,5,0,4,High Risk Readmission
+PAT-5254,34,115,93,186,13,0,3,Stable Discharge
+PAT-5255,67,166,90,142,16,1,4,Stable Discharge
+PAT-5256,33,115,94,160,16,2,0,High Risk Readmission
+PAT-5257,49,105,99,159,3,1,0,Stable Discharge
+PAT-5258,85,132,58,98,4,1,0,High Risk Readmission
+PAT-5259,28,166,79,248,11,1,0,Stable Discharge
+PAT-5260,31,129,123,118,14,0,1,Stable Discharge
+PAT-5261,73,108,84,240,3,0,4,High Risk Readmission
+PAT-5262,76,108,122,141,16,0,2,Stable Discharge
+PAT-5263,79,104,83,202,15,1,3,High Risk Readmission
+PAT-5264,77,106,127,111,10,3,0,Stable Discharge
+PAT-5265,70,132,122,204,9,1,4,High Risk Readmission
+PAT-5266,56,128,105,111,11,2,0,Stable Discharge
+PAT-5267,48,135,78,233,16,3,0,Stable Discharge
+PAT-5268,53,104,68,174,10,0,0,Stable Discharge
+PAT-5269,41,111,123,96,17,1,0,Stable Discharge
+PAT-5270,36,111,72,127,19,2,0,Stable Discharge
+PAT-5271,86,161,96,115,2,2,3,High Risk Readmission
+PAT-5272,74,156,111,135,2,5,4,High Risk Readmission
+PAT-5273,39,95,66,94,6,4,0,High Risk Readmission
+PAT-5274,69,106,71,142,19,2,0,Stable Discharge
+PAT-5275,78,98,84,186,8,1,0,Stable Discharge
+PAT-5276,83,136,129,224,3,0,0,Stable Discharge
+PAT-5277,78,107,77,198,14,2,1,High Risk Readmission
+PAT-5278,33,179,55,156,16,2,1,Stable Discharge
+PAT-5279,47,98,86,143,1,3,2,Stable Discharge
+PAT-5280,51,176,63,239,3,1,0,High Risk Readmission
+PAT-5281,54,163,69,249,18,1,2,Stable Discharge
+PAT-5282,65,113,82,222,9,1,3,Stable Discharge
+PAT-5283,35,96,78,251,6,2,2,Stable Discharge
+PAT-5284,28,106,114,194,1,0,4,Stable Discharge
+PAT-5285,81,175,89,136,10,1,1,High Risk Readmission
+PAT-5286,76,168,81,75,6,0,1,High Risk Readmission
+PAT-5287,76,100,74,194,12,2,0,Stable Discharge
+PAT-5288,51,102,119,127,4,1,0,Stable Discharge
+PAT-5289,74,145,103,139,13,4,3,High Risk Readmission
+PAT-5290,34,105,55,122,17,1,3,Stable Discharge
+PAT-5291,46,157,64,135,8,0,4,Stable Discharge
+PAT-5292,49,151,101,127,20,1,0,Stable Discharge
+PAT-5293,84,106,113,151,3,2,0,High Risk Readmission
+PAT-5294,82,167,116,156,12,0,3,Stable Discharge
+PAT-5295,87,96,72,71,7,0,3,High Risk Readmission
+PAT-5296,62,102,100,219,12,2,3,Stable Discharge
+PAT-5297,57,105,86,106,2,5,1,Stable Discharge
+PAT-5298,56,147,81,217,14,0,2,Stable Discharge
+PAT-5299,49,104,72,172,5,0,2,Stable Discharge
+PAT-5300,38,179,93,93,9,0,0,Stable Discharge
+PAT-5301,47,178,103,181,11,3,1,High Risk Readmission
+PAT-5302,56,102,98,134,5,4,3,High Risk Readmission
+PAT-5303,78,130,126,198,3,3,0,High Risk Readmission
+PAT-5304,68,170,108,186,17,0,1,Stable Discharge
+PAT-5305,69,108,88,185,2,1,4,High Risk Readmission
+PAT-5306,61,148,125,174,1,3,1,High Risk Readmission
+PAT-5307,28,179,90,72,7,2,0,Stable Discharge
+PAT-5308,58,115,72,115,14,1,2,Stable Discharge
+PAT-5309,57,144,92,124,5,1,3,High Risk Readmission
+PAT-5310,75,133,113,144,19,3,4,High Risk Readmission
+PAT-5311,45,114,63,114,11,1,1,Stable Discharge
+PAT-5312,82,101,127,223,2,2,0,Stable Discharge
+PAT-5313,85,103,126,146,8,2,0,High Risk Readmission
+PAT-5314,44,95,105,93,9,2,3,Stable Discharge
+PAT-5315,65,120,89,104,3,0,0,High Risk Readmission
+PAT-5316,41,132,59,93,2,4,0,High Risk Readmission
+PAT-5317,50,132,68,97,7,1,3,Stable Discharge
+PAT-5318,52,155,84,85,5,1,4,Stable Discharge
+PAT-5319,42,138,58,128,5,0,2,Stable Discharge
+PAT-5320,73,138,93,251,20,2,2,High Risk Readmission
+PAT-5321,83,168,118,213,13,0,1,High Risk Readmission
+PAT-5322,49,156,79,84,20,1,4,Stable Discharge
+PAT-5323,30,100,82,80,6,2,1,High Risk Readmission
+PAT-5324,83,111,120,148,20,1,2,High Risk Readmission
+PAT-5325,82,145,76,184,18,0,3,High Risk Readmission
+PAT-5326,46,132,85,137,2,2,0,Stable Discharge
+PAT-5327,84,118,77,112,6,0,2,High Risk Readmission
+PAT-5328,71,145,102,138,9,0,4,High Risk Readmission
+PAT-5329,61,104,74,210,3,2,2,High Risk Readmission
+PAT-5330,62,166,92,207,1,1,4,High Risk Readmission
+PAT-5331,77,115,109,144,1,3,4,High Risk Readmission
+PAT-5332,28,164,122,172,19,3,4,High Risk Readmission
+PAT-5333,79,179,55,110,5,0,1,Stable Discharge
+PAT-5334,48,151,61,247,13,0,3,High Risk Readmission
+PAT-5335,56,133,111,128,19,2,2,Stable Discharge
+PAT-5336,33,127,66,108,12,4,3,High Risk Readmission
+PAT-5337,64,153,59,72,16,1,0,High Risk Readmission
+PAT-5338,28,112,104,76,19,3,2,Stable Discharge
+PAT-5339,78,150,96,118,3,0,3,Stable Discharge
+PAT-5340,28,151,66,95,12,3,3,High Risk Readmission
+PAT-5341,54,170,72,230,5,2,0,Stable Discharge
+PAT-5342,48,142,120,170,2,2,4,Stable Discharge
+PAT-5343,80,136,128,245,7,4,2,High Risk Readmission
+PAT-5344,43,121,71,148,13,1,2,Stable Discharge
+PAT-5345,71,168,122,71,15,3,0,High Risk Readmission
+PAT-5346,86,146,125,196,3,0,4,Stable Discharge
+PAT-5347,81,136,116,229,20,1,2,High Risk Readmission
+PAT-5348,67,126,95,201,5,1,2,High Risk Readmission
+PAT-5349,53,120,88,89,8,2,2,Stable Discharge
+PAT-5350,43,119,124,186,1,1,4,Stable Discharge
+PAT-5351,55,169,99,233,8,0,0,Stable Discharge
+PAT-5352,28,117,112,101,18,2,2,Stable Discharge
+PAT-5353,63,151,105,97,20,3,3,High Risk Readmission
+PAT-5354,37,146,88,146,16,1,4,High Risk Readmission
+PAT-5355,70,125,98,70,18,3,1,Stable Discharge
+PAT-5356,44,158,69,257,20,1,0,High Risk Readmission
+PAT-5357,84,165,124,125,12,1,3,Stable Discharge
+PAT-5358,86,127,104,104,13,5,2,Stable Discharge
+PAT-5359,50,179,86,181,13,2,1,Stable Discharge
+PAT-5360,34,96,121,99,10,0,0,Stable Discharge
+PAT-5361,71,112,57,123,7,3,4,High Risk Readmission
+PAT-5362,80,141,128,105,14,0,1,High Risk Readmission
+PAT-5363,34,127,105,252,16,1,1,Stable Discharge
+PAT-5364,71,178,121,149,15,0,3,High Risk Readmission
+PAT-5365,42,129,102,127,12,3,0,Stable Discharge
+PAT-5366,61,145,71,152,9,1,3,Stable Discharge
+PAT-5367,73,112,61,134,8,1,3,Stable Discharge
+PAT-5368,72,166,67,138,18,3,2,High Risk Readmission
+PAT-5369,31,124,120,197,18,2,4,Stable Discharge
+PAT-5370,41,138,58,120,13,2,1,Stable Discharge
+PAT-5371,41,147,64,91,18,2,0,Stable Discharge
+PAT-5372,43,104,71,176,15,2,4,Stable Discharge
+PAT-5373,34,146,106,178,4,2,4,Stable Discharge
+PAT-5374,59,143,60,185,17,1,0,High Risk Readmission
+PAT-5375,46,105,123,170,5,1,4,High Risk Readmission
+PAT-5376,29,160,128,250,16,0,2,Stable Discharge
+PAT-5377,37,152,63,169,9,0,4,Stable Discharge
+PAT-5378,77,130,75,233,10,2,2,Stable Discharge
+PAT-5379,44,127,78,137,18,0,1,Stable Discharge
+PAT-5380,64,141,58,105,17,1,1,Stable Discharge
+PAT-5381,39,107,78,249,18,1,3,Stable Discharge
+PAT-5382,33,134,113,250,7,2,2,Stable Discharge
+PAT-5383,49,162,57,247,4,2,1,Stable Discharge
+PAT-5384,59,136,122,238,5,2,4,High Risk Readmission
+PAT-5385,68,113,94,215,16,0,0,High Risk Readmission
+PAT-5386,47,176,102,91,3,1,0,Stable Discharge
+PAT-5387,28,113,108,135,18,5,2,High Risk Readmission
+PAT-5388,81,152,89,90,14,2,3,Stable Discharge
+PAT-5389,74,117,110,169,15,1,4,High Risk Readmission
+PAT-5390,80,148,94,197,17,1,2,Stable Discharge
+PAT-5391,85,174,122,113,1,3,0,Stable Discharge
+PAT-5392,33,159,100,172,17,2,2,Stable Discharge
+PAT-5393,46,106,67,116,11,1,4,Stable Discharge
+PAT-5394,45,118,81,108,17,2,1,Stable Discharge
+PAT-5395,33,128,60,98,14,2,4,Stable Discharge
+PAT-5396,72,147,71,123,20,0,1,High Risk Readmission
+PAT-5397,60,102,90,159,19,1,1,Stable Discharge
+PAT-5398,50,112,56,154,7,2,1,Stable Discharge
+PAT-5399,50,151,106,86,13,1,2,Stable Discharge

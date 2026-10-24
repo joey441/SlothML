@@ -1,0 +1,451 @@
+CustomerID,TenureMonths,MonthlyCharges,TotalCharges,ContractType,SupportCalls,TechSupport,PaperlessBilling,Churn
+SLOTH-1000,52,29.13,1584.19,One year,1,No,No,Retained
+SLOTH-1001,15,51.93,645.98,Month-to-month,4,No,Yes,Churned
+SLOTH-1002,61,115.01,6911.69,One year,3,No,Yes,Retained
+SLOTH-1003,21,115.06,2354.23,Month-to-month,1,No,No,Retained
+SLOTH-1004,24,77.34,1797.28,One year,3,No,Yes,Retained
+SLOTH-1005,3,83.18,259.73,Two year,3,No,Yes,Retained
+SLOTH-1006,22,64.84,1440.97,Month-to-month,3,Yes,Yes,Churned
+SLOTH-1007,53,49.32,2601.22,Two year,3,No,Yes,Retained
+SLOTH-1008,2,52.87,98.25,Month-to-month,1,No,Yes,Churned
+SLOTH-1009,30,87.25,2643.89,Two year,0,Yes,No,Retained
+SLOTH-1010,38,95.24,3660.78,One year,4,No,Yes,Retained
+SLOTH-1011,2,99.16,131.99,One year,1,No,Yes,Retained
+SLOTH-1012,64,98.96,6315.35,One year,2,No,Yes,Retained
+SLOTH-1013,60,29.12,1743.72,Two year,1,Yes,Yes,Retained
+SLOTH-1014,21,69.44,1482.51,Month-to-month,5,Yes,Yes,Churned
+SLOTH-1015,33,25.76,811.45,Month-to-month,1,No,No,Retained
+SLOTH-1016,58,74.95,4342.64,One year,2,No,No,Retained
+SLOTH-1017,22,64.15,1412.8,Two year,2,Yes,Yes,Retained
+SLOTH-1018,49,108.77,5294.51,One year,1,Yes,No,Retained
+SLOTH-1019,59,55.09,3213.89,One year,0,No,No,Retained
+SLOTH-1020,42,31.71,1336.76,Month-to-month,0,Yes,No,Retained
+SLOTH-1021,60,34.3,2051.48,Two year,2,No,Yes,Retained
+SLOTH-1022,15,96.15,1467.27,Month-to-month,2,No,Yes,Retained
+SLOTH-1023,62,81.82,5020.18,Month-to-month,3,Yes,Yes,Churned
+SLOTH-1024,62,30.11,1849.29,Month-to-month,3,No,Yes,Churned
+SLOTH-1025,47,28.41,1323.81,Month-to-month,0,Yes,Yes,Retained
+SLOTH-1026,62,90.1,5626.89,Month-to-month,3,Yes,Yes,Retained
+SLOTH-1027,51,27.28,1344.26,Month-to-month,1,No,No,Retained
+SLOTH-1028,55,102.19,5632.18,One year,1,No,No,Retained
+SLOTH-1029,64,90.62,5812.32,Month-to-month,3,No,No,Churned
+SLOTH-1030,3,28.13,166.71,Month-to-month,0,No,Yes,Churned
+SLOTH-1031,51,28.48,1402.13,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1032,7,118.66,797.76,Month-to-month,2,Yes,Yes,Churned
+SLOTH-1033,21,57.43,1159.16,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1034,39,57.06,2141.85,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1035,18,101.28,1911.27,One year,1,Yes,Yes,Retained
+SLOTH-1036,4,114.72,396.8,One year,0,Yes,Yes,Churned
+SLOTH-1037,60,118.6,7075.18,One year,1,No,No,Retained
+SLOTH-1038,14,95.34,1400.55,Month-to-month,2,No,Yes,Churned
+SLOTH-1039,9,57.63,431.01,Month-to-month,1,No,No,Retained
+SLOTH-1040,53,28.35,1540.37,Two year,4,No,Yes,Retained
+SLOTH-1041,2,97.71,124.77,Month-to-month,1,Yes,Yes,Churned
+SLOTH-1042,60,75.84,4612.73,Month-to-month,3,Yes,Yes,Retained
+SLOTH-1043,71,62.42,4323.33,Month-to-month,1,No,Yes,Retained
+SLOTH-1044,44,110.64,4780.49,Month-to-month,3,No,Yes,Churned
+SLOTH-1045,8,31.12,221.71,Month-to-month,0,Yes,Yes,Retained
+SLOTH-1046,47,69.26,3303.81,Month-to-month,1,No,Yes,Retained
+SLOTH-1047,35,21.14,738.35,One year,2,No,Yes,Retained
+SLOTH-1048,36,66.87,2390.53,Month-to-month,1,No,Yes,Churned
+SLOTH-1049,50,25.63,1348.8,One year,2,Yes,No,Retained
+SLOTH-1050,4,31.88,235.28,One year,2,No,Yes,Retained
+SLOTH-1051,2,31.75,97.11,Two year,2,No,No,Retained
+SLOTH-1052,6,84.92,478.38,One year,4,No,Yes,Retained
+SLOTH-1053,54,94.6,5087.49,Two year,2,No,No,Retained
+SLOTH-1054,4,78.34,248.94,Month-to-month,3,No,No,Churned
+SLOTH-1055,54,116.22,6280.92,Month-to-month,2,No,Yes,Retained
+SLOTH-1056,63,57.49,3540.39,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1057,18,48.57,901.85,One year,2,No,No,Churned
+SLOTH-1058,44,106.86,4802.12,Two year,4,No,Yes,Retained
+SLOTH-1059,34,42.36,1476.12,Month-to-month,2,No,Yes,Retained
+SLOTH-1060,62,116.32,7188.38,Two year,0,Yes,Yes,Retained
+SLOTH-1061,14,21.22,323.43,Month-to-month,3,Yes,No,Retained
+SLOTH-1062,48,116.99,5696.55,Two year,0,No,No,Churned
+SLOTH-1063,15,24.32,443.32,Month-to-month,5,No,Yes,Churned
+SLOTH-1064,62,109.11,6714.63,Month-to-month,2,No,Yes,Churned
+SLOTH-1065,40,72.77,2936.31,Month-to-month,3,No,Yes,Retained
+SLOTH-1066,53,119.3,6314.99,Month-to-month,2,No,Yes,Retained
+SLOTH-1067,24,27.38,697.45,Month-to-month,5,No,No,Churned
+SLOTH-1068,26,75.39,1979.32,Month-to-month,2,No,Yes,Retained
+SLOTH-1069,60,116.93,6897.31,Two year,2,No,Yes,Retained
+SLOTH-1070,41,72.31,2947.31,Month-to-month,1,No,Yes,Retained
+SLOTH-1071,29,82.94,2415.19,Month-to-month,1,Yes,No,Retained
+SLOTH-1072,15,89.57,1271.83,One year,6,No,Yes,Churned
+SLOTH-1073,45,65.45,2974.3,One year,1,No,Yes,Retained
+SLOTH-1074,65,82.76,5303.2,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1075,71,78.43,5528.61,Month-to-month,0,Yes,Yes,Churned
+SLOTH-1076,9,110.12,1058.15,Month-to-month,4,Yes,Yes,Churned
+SLOTH-1077,1,24.54,24.54,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1078,8,48.1,413.5,One year,3,Yes,Yes,Retained
+SLOTH-1079,63,115.04,7159.84,Month-to-month,3,No,No,Churned
+SLOTH-1080,11,109.03,1303.4,Month-to-month,3,No,No,Churned
+SLOTH-1081,8,65.57,509.33,One year,2,No,No,Retained
+SLOTH-1082,35,82.01,2875.12,Month-to-month,1,Yes,Yes,Churned
+SLOTH-1083,35,47.74,1679.85,One year,2,Yes,No,Retained
+SLOTH-1084,33,38.81,1311.11,Month-to-month,3,No,Yes,Retained
+SLOTH-1085,5,66.37,255.89,Two year,3,Yes,Yes,Retained
+SLOTH-1086,41,55.34,2268.67,Month-to-month,3,No,Yes,Retained
+SLOTH-1087,28,78.37,2161.42,Two year,2,No,Yes,Retained
+SLOTH-1088,7,27.77,109.91,One year,3,No,Yes,Churned
+SLOTH-1089,12,117.44,1458.64,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1090,34,118.62,4015.47,One year,0,No,Yes,Retained
+SLOTH-1091,33,89.82,2976.19,Two year,4,Yes,Yes,Retained
+SLOTH-1092,48,73.61,3542.27,One year,3,No,Yes,Retained
+SLOTH-1093,23,50.95,1155.11,Two year,2,No,Yes,Retained
+SLOTH-1094,62,101.38,6384.31,Two year,3,Yes,Yes,Retained
+SLOTH-1095,37,88.47,3271.03,Month-to-month,2,Yes,No,Churned
+SLOTH-1096,44,36.26,1517.54,Month-to-month,1,Yes,No,Retained
+SLOTH-1097,35,111.09,3868.13,One year,4,No,Yes,Retained
+SLOTH-1098,65,102.25,6671.24,Month-to-month,3,Yes,Yes,Retained
+SLOTH-1099,47,114.98,5430.69,Two year,4,No,Yes,Retained
+SLOTH-1100,3,92.57,223.32,Two year,1,Yes,No,Retained
+SLOTH-1101,1,81.34,127.81,Month-to-month,2,No,Yes,Churned
+SLOTH-1102,5,61.82,220.96,Month-to-month,1,No,Yes,Retained
+SLOTH-1103,14,113.27,1642.99,One year,2,No,Yes,Retained
+SLOTH-1104,27,106.61,2812.5,Month-to-month,1,No,Yes,Churned
+SLOTH-1105,9,24.52,209.37,Two year,1,Yes,Yes,Retained
+SLOTH-1106,15,22.64,392.83,Month-to-month,5,Yes,No,Churned
+SLOTH-1107,42,57.65,2427.28,One year,0,No,Yes,Retained
+SLOTH-1108,51,101.06,5194.89,Month-to-month,2,Yes,Yes,Churned
+SLOTH-1109,63,118.73,7510.92,One year,4,No,No,Retained
+SLOTH-1110,52,35.04,1886.39,Month-to-month,2,Yes,No,Retained
+SLOTH-1111,4,79.41,370.75,One year,0,Yes,Yes,Churned
+SLOTH-1112,23,58.09,1313.38,Month-to-month,5,Yes,Yes,Churned
+SLOTH-1113,15,116.99,1786.5,One year,2,No,Yes,Retained
+SLOTH-1114,43,104.21,4404.7,Two year,4,Yes,No,Retained
+SLOTH-1115,29,103.83,3008.17,Month-to-month,3,No,Yes,Retained
+SLOTH-1116,36,66.87,2448.24,Month-to-month,1,Yes,No,Churned
+SLOTH-1117,13,61.48,805.93,Month-to-month,2,No,Yes,Retained
+SLOTH-1118,32,47.34,1537.21,One year,5,Yes,Yes,Retained
+SLOTH-1119,71,25.64,1809.78,One year,1,No,Yes,Retained
+SLOTH-1120,59,106.47,6338.18,Month-to-month,1,No,Yes,Retained
+SLOTH-1121,28,101.29,2832.1,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1122,66,119.97,7894.75,Month-to-month,3,No,Yes,Retained
+SLOTH-1123,42,119.66,5070.05,One year,2,No,Yes,Retained
+SLOTH-1124,45,75.54,3329.04,Month-to-month,1,No,No,Churned
+SLOTH-1125,62,96.9,6032.85,Two year,0,No,Yes,Retained
+SLOTH-1126,57,114.48,6473.24,Month-to-month,1,Yes,No,Retained
+SLOTH-1127,6,104.96,693.66,One year,0,No,Yes,Retained
+SLOTH-1128,28,44.73,1239.39,Month-to-month,3,Yes,Yes,Churned
+SLOTH-1129,28,65.05,1828.15,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1130,44,32.92,1469.11,One year,0,No,Yes,Retained
+SLOTH-1131,30,115.41,3365.82,One year,1,Yes,No,Retained
+SLOTH-1132,62,80.62,4965.91,Two year,3,No,Yes,Retained
+SLOTH-1133,62,42.86,2709.5,Month-to-month,2,No,Yes,Churned
+SLOTH-1134,1,87.17,130.56,Month-to-month,1,No,Yes,Churned
+SLOTH-1135,27,81.81,2223.02,One year,3,No,Yes,Retained
+SLOTH-1136,62,55.82,3393.37,One year,4,Yes,Yes,Retained
+SLOTH-1137,3,31.36,123.36,Month-to-month,0,Yes,No,Retained
+SLOTH-1138,70,87.16,6136.87,Month-to-month,1,No,No,Churned
+SLOTH-1139,27,72.03,1947.16,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1140,9,97.23,936.23,Two year,2,Yes,Yes,Retained
+SLOTH-1141,62,72.02,4431.07,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1142,37,105.22,3867.65,Month-to-month,0,No,Yes,Retained
+SLOTH-1143,51,75.19,3710.46,Month-to-month,2,No,Yes,Churned
+SLOTH-1144,44,76.09,3393.95,Month-to-month,0,Yes,Yes,Retained
+SLOTH-1145,24,107.67,2599.77,Month-to-month,4,No,Yes,Churned
+SLOTH-1146,59,60.35,3476.56,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1147,32,33.4,980.87,Month-to-month,5,Yes,Yes,Churned
+SLOTH-1148,52,22.88,1146.13,Two year,1,No,Yes,Retained
+SLOTH-1149,62,95.51,5961.3,Month-to-month,1,No,Yes,Retained
+SLOTH-1150,58,82.03,4742.72,Month-to-month,0,No,Yes,Retained
+SLOTH-1151,52,90.41,4661.08,Two year,1,Yes,No,Retained
+SLOTH-1152,12,41.3,445.29,One year,2,No,Yes,Retained
+SLOTH-1153,39,33.64,1259.41,Month-to-month,0,No,Yes,Retained
+SLOTH-1154,2,21.45,21.45,Month-to-month,3,No,Yes,Churned
+SLOTH-1155,3,55.06,104.81,Month-to-month,4,No,No,Retained
+SLOTH-1156,56,78.99,4369.91,One year,2,No,Yes,Retained
+SLOTH-1157,59,59.22,3528.11,Two year,5,No,Yes,Retained
+SLOTH-1158,2,63.75,119.21,One year,2,No,Yes,Retained
+SLOTH-1159,2,110.42,179.56,One year,3,No,No,Churned
+SLOTH-1160,54,54.83,3076.31,One year,1,No,No,Retained
+SLOTH-1161,1,71.4,71.4,Month-to-month,2,No,Yes,Retained
+SLOTH-1162,19,98.37,1927.39,Month-to-month,0,No,No,Churned
+SLOTH-1163,2,59.65,200.36,One year,3,Yes,No,Churned
+SLOTH-1164,53,82.21,4278.63,Two year,1,Yes,No,Retained
+SLOTH-1165,44,106.24,4678.26,Month-to-month,3,No,Yes,Retained
+SLOTH-1166,32,114.95,3652.52,One year,3,No,Yes,Retained
+SLOTH-1167,70,34.71,2399.75,Month-to-month,1,No,Yes,Churned
+SLOTH-1168,32,112.66,3632.89,Month-to-month,3,Yes,No,Retained
+SLOTH-1169,68,69.21,4675.14,Month-to-month,0,No,Yes,Churned
+SLOTH-1170,55,45.82,2495.3,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1171,56,65.91,3682.55,One year,0,No,Yes,Retained
+SLOTH-1172,17,118.0,1987.33,Month-to-month,2,No,No,Retained
+SLOTH-1173,38,69.26,2573.2,One year,1,No,No,Retained
+SLOTH-1174,24,52.88,1308.92,One year,4,No,Yes,Retained
+SLOTH-1175,69,83.34,5802.89,Two year,3,No,No,Retained
+SLOTH-1176,70,44.01,3097.88,Month-to-month,1,No,Yes,Retained
+SLOTH-1177,11,27.59,284.66,Month-to-month,1,Yes,No,Retained
+SLOTH-1178,16,32.89,490.98,Month-to-month,4,No,Yes,Churned
+SLOTH-1179,59,32.8,1900.02,Two year,1,No,Yes,Retained
+SLOTH-1180,70,35.19,2581.17,Two year,1,No,No,Retained
+SLOTH-1181,3,33.88,148.53,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1182,20,84.09,1639.79,Two year,3,No,No,Retained
+SLOTH-1183,59,38.19,2261.44,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1184,36,54.57,1946.39,One year,2,No,Yes,Churned
+SLOTH-1185,19,109.68,2113.11,Month-to-month,5,No,Yes,Churned
+SLOTH-1186,67,67.4,4542.97,One year,1,No,Yes,Retained
+SLOTH-1187,19,86.76,1702.62,Month-to-month,2,No,Yes,Churned
+SLOTH-1188,20,37.23,702.07,Two year,5,Yes,Yes,Churned
+SLOTH-1189,71,39.23,2790.57,One year,1,Yes,Yes,Retained
+SLOTH-1190,52,24.09,1165.25,One year,4,No,Yes,Retained
+SLOTH-1191,33,36.89,1154.5,Month-to-month,4,No,No,Churned
+SLOTH-1192,40,47.86,1958.61,Month-to-month,1,Yes,No,Retained
+SLOTH-1193,39,37.7,1422.77,Month-to-month,2,No,Yes,Retained
+SLOTH-1194,1,28.87,28.87,Month-to-month,3,No,No,Churned
+SLOTH-1195,11,32.06,352.25,Month-to-month,6,No,Yes,Churned
+SLOTH-1196,57,66.08,3801.3,Two year,0,No,Yes,Retained
+SLOTH-1197,50,40.63,1978.46,One year,4,Yes,No,Churned
+SLOTH-1198,23,56.43,1123.85,Month-to-month,3,Yes,No,Churned
+SLOTH-1199,31,70.34,2137.03,Month-to-month,1,No,Yes,Churned
+SLOTH-1200,42,89.04,3799.96,Month-to-month,4,No,No,Churned
+SLOTH-1201,7,23.93,184.67,One year,1,No,Yes,Retained
+SLOTH-1202,16,99.94,1665.23,Month-to-month,2,No,No,Churned
+SLOTH-1203,60,82.79,4910.81,Two year,1,No,Yes,Retained
+SLOTH-1204,2,28.18,28.18,Month-to-month,4,No,Yes,Churned
+SLOTH-1205,1,107.36,130.49,Two year,3,No,Yes,Retained
+SLOTH-1206,48,112.09,5392.32,Two year,6,No,Yes,Retained
+SLOTH-1207,12,26.11,328.6,Month-to-month,1,No,Yes,Churned
+SLOTH-1208,69,47.69,3337.26,Two year,2,Yes,No,Retained
+SLOTH-1209,37,100.62,3744.02,Month-to-month,1,No,Yes,Churned
+SLOTH-1210,32,94.83,3054.84,Two year,2,Yes,Yes,Retained
+SLOTH-1211,9,38.45,381.8,Month-to-month,3,No,Yes,Retained
+SLOTH-1212,19,40.93,802.79,Two year,3,No,Yes,Retained
+SLOTH-1213,48,57.05,2781.27,Two year,0,No,Yes,Retained
+SLOTH-1214,3,68.45,255.78,Two year,1,Yes,Yes,Retained
+SLOTH-1215,20,81.83,1713.18,One year,1,Yes,Yes,Churned
+SLOTH-1216,24,56.89,1332.9,Month-to-month,4,Yes,Yes,Churned
+SLOTH-1217,54,66.25,3601.53,Month-to-month,1,No,Yes,Churned
+SLOTH-1218,33,94.75,3108.23,Month-to-month,4,Yes,No,Churned
+SLOTH-1219,24,23.67,526.4,Month-to-month,0,No,No,Churned
+SLOTH-1220,36,45.24,1594.16,One year,3,No,Yes,Retained
+SLOTH-1221,38,91.33,3495.29,Month-to-month,1,No,Yes,Churned
+SLOTH-1222,25,109.52,2758.91,Two year,2,No,Yes,Retained
+SLOTH-1223,18,71.17,1301.08,One year,4,Yes,Yes,Retained
+SLOTH-1224,66,73.21,4820.57,Two year,2,No,Yes,Retained
+SLOTH-1225,54,30.72,1659.05,Month-to-month,1,No,Yes,Churned
+SLOTH-1226,35,64.74,2306.79,Two year,1,Yes,Yes,Retained
+SLOTH-1227,61,73.26,4394.39,Two year,2,No,Yes,Retained
+SLOTH-1228,41,44.25,1815.48,Month-to-month,1,Yes,Yes,Churned
+SLOTH-1229,33,46.92,1552.86,One year,2,No,No,Retained
+SLOTH-1230,68,57.73,3963.31,One year,1,No,No,Retained
+SLOTH-1231,33,22.01,658.82,Month-to-month,2,Yes,Yes,Churned
+SLOTH-1232,14,52.21,805.7,Month-to-month,0,No,Yes,Retained
+SLOTH-1233,21,41.14,874.62,Month-to-month,1,No,No,Retained
+SLOTH-1234,48,52.75,2545.33,Month-to-month,4,No,No,Retained
+SLOTH-1235,20,31.98,619.53,Month-to-month,3,No,Yes,Churned
+SLOTH-1236,8,109.05,899.3,Month-to-month,2,No,Yes,Churned
+SLOTH-1237,7,79.36,557.92,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1238,67,87.91,5950.42,Month-to-month,1,Yes,Yes,Churned
+SLOTH-1239,17,98.92,1609.57,Two year,5,Yes,Yes,Churned
+SLOTH-1240,33,69.84,2313.5,Month-to-month,0,No,Yes,Retained
+SLOTH-1241,48,28.69,1397.55,Two year,2,No,Yes,Retained
+SLOTH-1242,59,73.71,4339.57,Month-to-month,3,No,Yes,Retained
+SLOTH-1243,22,78.68,1710.73,Month-to-month,1,No,No,Churned
+SLOTH-1244,30,94.54,2818.05,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1245,38,63.17,2409.19,Month-to-month,4,Yes,Yes,Churned
+SLOTH-1246,51,32.76,1580.26,Month-to-month,3,Yes,Yes,Retained
+SLOTH-1247,54,48.38,2660.77,One year,2,Yes,Yes,Retained
+SLOTH-1248,8,56.31,426.47,Month-to-month,1,Yes,No,Churned
+SLOTH-1249,27,84.59,2290.32,One year,3,No,Yes,Retained
+SLOTH-1250,27,77.08,2099.52,One year,2,Yes,Yes,Retained
+SLOTH-1251,21,55.61,1141.52,Month-to-month,1,Yes,No,Retained
+SLOTH-1252,30,118.65,3552.95,Month-to-month,0,Yes,Yes,Churned
+SLOTH-1253,28,80.58,2154.48,One year,0,Yes,No,Retained
+SLOTH-1254,64,43.72,2834.69,Month-to-month,2,No,Yes,Churned
+SLOTH-1255,69,30.18,2136.42,Month-to-month,0,No,Yes,Churned
+SLOTH-1256,61,35.29,2067.64,Two year,1,No,Yes,Retained
+SLOTH-1257,48,44.6,2120.48,Month-to-month,0,No,Yes,Retained
+SLOTH-1258,19,36.07,623.84,One year,0,Yes,No,Retained
+SLOTH-1259,4,38.66,145.75,Two year,2,No,No,Retained
+SLOTH-1260,35,48.51,1730.28,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1261,64,37.34,2439.13,Month-to-month,4,Yes,Yes,Retained
+SLOTH-1262,49,109.68,5430.41,Month-to-month,4,Yes,No,Churned
+SLOTH-1263,17,28.02,541.87,Month-to-month,0,Yes,No,Churned
+SLOTH-1264,44,72.45,3176.68,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1265,30,61.04,1773.85,One year,1,Yes,Yes,Retained
+SLOTH-1266,46,118.24,5433.31,Month-to-month,2,No,Yes,Retained
+SLOTH-1267,6,31.2,218.86,Month-to-month,1,Yes,No,Churned
+SLOTH-1268,37,59.79,2150.87,Two year,0,Yes,Yes,Retained
+SLOTH-1269,24,116.95,2889.81,Two year,4,No,Yes,Retained
+SLOTH-1270,46,106.55,4946.19,One year,4,Yes,No,Retained
+SLOTH-1271,53,101.71,5380.3,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1272,60,45.79,2711.86,One year,1,No,Yes,Retained
+SLOTH-1273,63,37.09,2303.21,Month-to-month,3,Yes,Yes,Retained
+SLOTH-1274,32,86.86,2783.23,Month-to-month,6,Yes,Yes,Churned
+SLOTH-1275,33,112.94,3715.55,Month-to-month,1,No,Yes,Retained
+SLOTH-1276,67,75.68,5118.09,Two year,1,Yes,Yes,Retained
+SLOTH-1277,18,77.16,1371.73,Month-to-month,3,No,Yes,Retained
+SLOTH-1278,25,48.0,1225.28,Month-to-month,3,No,Yes,Churned
+SLOTH-1279,54,96.95,5233.85,Month-to-month,1,Yes,No,Retained
+SLOTH-1280,58,38.7,2258.08,Month-to-month,2,No,No,Retained
+SLOTH-1281,67,52.37,3497.29,Two year,2,No,Yes,Retained
+SLOTH-1282,46,62.54,2912.23,One year,1,Yes,Yes,Retained
+SLOTH-1283,24,70.76,1734.37,One year,2,No,Yes,Churned
+SLOTH-1284,32,44.24,1438.68,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1285,47,31.48,1509.94,Month-to-month,2,No,Yes,Churned
+SLOTH-1286,23,81.06,1817.16,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1287,66,48.86,3240.92,Month-to-month,2,No,Yes,Retained
+SLOTH-1288,27,78.12,2171.7,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1289,2,35.44,95.45,One year,1,No,Yes,Retained
+SLOTH-1290,17,68.11,1106.33,Month-to-month,5,Yes,Yes,Retained
+SLOTH-1291,33,73.26,2415.09,Month-to-month,3,No,Yes,Churned
+SLOTH-1292,9,25.18,245.37,Month-to-month,3,No,Yes,Retained
+SLOTH-1293,43,53.66,2269.51,Month-to-month,1,No,Yes,Retained
+SLOTH-1294,48,33.44,1537.21,Month-to-month,2,No,No,Churned
+SLOTH-1295,39,26.34,1011.46,Two year,7,No,No,Retained
+SLOTH-1296,42,119.0,4960.96,Two year,2,No,Yes,Retained
+SLOTH-1297,26,52.24,1357.53,Two year,2,No,Yes,Retained
+SLOTH-1298,50,100.99,4969.93,Month-to-month,3,Yes,Yes,Retained
+SLOTH-1299,25,45.46,1164.74,Month-to-month,0,No,Yes,Retained
+SLOTH-1300,24,88.15,2083.87,Month-to-month,2,No,Yes,Churned
+SLOTH-1301,13,96.02,1298.05,Month-to-month,2,No,No,Churned
+SLOTH-1302,60,79.56,4759.76,Two year,2,No,Yes,Retained
+SLOTH-1303,7,67.16,468.85,Month-to-month,1,Yes,No,Retained
+SLOTH-1304,57,61.18,3478.61,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1305,36,54.89,1941.63,Month-to-month,1,No,Yes,Churned
+SLOTH-1306,45,112.95,5206.36,Month-to-month,2,No,No,Retained
+SLOTH-1307,20,103.06,2036.41,One year,2,No,Yes,Retained
+SLOTH-1308,65,116.5,7623.68,Month-to-month,5,No,Yes,Churned
+SLOTH-1309,8,32.43,204.76,Month-to-month,2,No,Yes,Churned
+SLOTH-1310,16,93.09,1508.05,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1311,14,113.83,1617.56,Month-to-month,1,No,No,Retained
+SLOTH-1312,15,38.12,570.59,One year,1,No,Yes,Churned
+SLOTH-1313,66,26.65,1730.35,Two year,0,Yes,No,Retained
+SLOTH-1314,32,94.11,2998.35,Two year,0,No,No,Churned
+SLOTH-1315,63,77.45,4859.19,One year,2,No,No,Retained
+SLOTH-1316,51,104.18,5433.28,Month-to-month,4,Yes,Yes,Retained
+SLOTH-1317,25,33.98,848.37,One year,2,Yes,Yes,Retained
+SLOTH-1318,58,99.53,5798.98,Month-to-month,5,No,No,Churned
+SLOTH-1319,63,40.16,2619.16,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1320,62,36.37,2211.12,Two year,1,No,Yes,Retained
+SLOTH-1321,22,36.43,803.34,Month-to-month,2,No,Yes,Retained
+SLOTH-1322,58,101.46,5871.22,Two year,0,No,Yes,Retained
+SLOTH-1323,58,86.52,5013.85,Month-to-month,0,No,Yes,Retained
+SLOTH-1324,49,72.31,3534.24,One year,4,Yes,Yes,Retained
+SLOTH-1325,52,55.88,2869.17,One year,3,No,Yes,Retained
+SLOTH-1326,42,107.72,4534.01,Two year,1,Yes,No,Retained
+SLOTH-1327,70,59.24,4093.67,One year,2,No,Yes,Retained
+SLOTH-1328,15,101.66,1574.34,One year,0,Yes,No,Retained
+SLOTH-1329,54,63.91,3482.31,Month-to-month,0,No,Yes,Retained
+SLOTH-1330,60,57.69,3436.73,Month-to-month,1,Yes,No,Retained
+SLOTH-1331,8,66.27,507.91,Month-to-month,2,Yes,Yes,Churned
+SLOTH-1332,53,50.14,2671.2,One year,2,Yes,No,Retained
+SLOTH-1333,60,94.76,5645.67,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1334,5,70.27,441.95,One year,0,No,No,Retained
+SLOTH-1335,68,43.22,2956.86,Month-to-month,3,Yes,Yes,Churned
+SLOTH-1336,6,109.96,679.42,Month-to-month,3,No,No,Retained
+SLOTH-1337,47,58.39,2778.4,One year,3,No,No,Retained
+SLOTH-1338,55,74.36,4060.83,Month-to-month,5,No,Yes,Churned
+SLOTH-1339,40,110.65,4480.45,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1340,52,82.42,4291.57,Month-to-month,2,Yes,No,Churned
+SLOTH-1341,16,31.69,554.55,Two year,3,No,Yes,Retained
+SLOTH-1342,13,113.98,1471.84,One year,2,Yes,No,Retained
+SLOTH-1343,30,82.77,2548.96,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1344,19,53.49,1036.38,Month-to-month,2,No,Yes,Churned
+SLOTH-1345,17,33.93,685.94,Month-to-month,6,No,No,Retained
+SLOTH-1346,63,99.4,6243.72,One year,4,No,Yes,Churned
+SLOTH-1347,19,82.01,1568.42,One year,1,Yes,No,Churned
+SLOTH-1348,58,73.35,4202.72,Month-to-month,6,No,Yes,Retained
+SLOTH-1349,55,109.39,5989.99,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1350,62,98.86,6160.25,Month-to-month,3,Yes,Yes,Retained
+SLOTH-1351,23,35.17,865.38,One year,1,No,Yes,Retained
+SLOTH-1352,9,51.17,608.78,One year,3,Yes,Yes,Retained
+SLOTH-1353,12,44.85,533.37,Month-to-month,4,Yes,Yes,Churned
+SLOTH-1354,1,94.39,94.39,Month-to-month,3,Yes,Yes,Retained
+SLOTH-1355,58,23.35,1391.97,Month-to-month,3,No,Yes,Retained
+SLOTH-1356,1,76.99,76.99,Two year,2,No,No,Retained
+SLOTH-1357,34,96.25,3300.71,Month-to-month,4,No,Yes,Churned
+SLOTH-1358,48,107.68,5143.53,One year,4,No,Yes,Churned
+SLOTH-1359,1,54.21,64.79,One year,1,Yes,Yes,Retained
+SLOTH-1360,16,102.13,1688.63,Month-to-month,2,No,Yes,Churned
+SLOTH-1361,61,31.06,1889.12,Month-to-month,2,Yes,No,Retained
+SLOTH-1362,64,104.65,6744.24,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1363,63,32.75,2106.91,One year,2,No,Yes,Retained
+SLOTH-1364,69,59.73,4028.15,One year,2,No,Yes,Retained
+SLOTH-1365,22,99.73,2148.98,One year,4,Yes,Yes,Retained
+SLOTH-1366,67,34.99,2266.24,Month-to-month,1,Yes,No,Churned
+SLOTH-1367,26,42.93,1216.27,Month-to-month,1,Yes,Yes,Churned
+SLOTH-1368,16,92.23,1470.41,Two year,1,Yes,No,Retained
+SLOTH-1369,51,92.0,4781.04,One year,2,No,Yes,Retained
+SLOTH-1370,57,84.11,4712.62,Month-to-month,1,No,Yes,Churned
+SLOTH-1371,29,89.39,2563.67,Two year,1,No,No,Retained
+SLOTH-1372,69,74.27,5164.65,One year,3,No,Yes,Retained
+SLOTH-1373,47,45.18,2132.42,One year,2,Yes,Yes,Retained
+SLOTH-1374,62,54.57,3409.98,One year,1,No,Yes,Churned
+SLOTH-1375,69,38.16,2570.35,Two year,1,No,Yes,Retained
+SLOTH-1376,16,110.85,1842.44,One year,3,No,Yes,Retained
+SLOTH-1377,48,78.34,3799.17,Month-to-month,0,No,Yes,Retained
+SLOTH-1378,39,60.09,2363.59,Month-to-month,2,No,Yes,Retained
+SLOTH-1379,33,66.2,2150.32,Two year,3,Yes,Yes,Churned
+SLOTH-1380,23,114.73,2654.98,Month-to-month,0,No,Yes,Churned
+SLOTH-1381,10,35.34,338.83,Month-to-month,3,Yes,Yes,Retained
+SLOTH-1382,69,78.62,5342.26,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1383,34,70.59,2397.54,Month-to-month,3,Yes,Yes,Retained
+SLOTH-1384,52,81.15,4211.96,One year,2,Yes,No,Retained
+SLOTH-1385,10,21.81,271.22,Two year,2,No,Yes,Retained
+SLOTH-1386,19,107.21,1925.27,Month-to-month,3,No,No,Retained
+SLOTH-1387,58,113.21,6577.94,Month-to-month,2,No,Yes,Retained
+SLOTH-1388,1,76.51,76.51,Month-to-month,3,No,Yes,Retained
+SLOTH-1389,69,89.67,6203.19,Two year,2,No,Yes,Retained
+SLOTH-1390,4,112.25,467.71,One year,0,Yes,Yes,Retained
+SLOTH-1391,16,90.72,1447.18,Month-to-month,1,Yes,Yes,Churned
+SLOTH-1392,24,35.25,886.36,Two year,3,No,Yes,Retained
+SLOTH-1393,2,77.63,92.97,Two year,2,No,Yes,Retained
+SLOTH-1394,32,80.67,2636.83,Two year,3,No,No,Retained
+SLOTH-1395,24,62.41,1462.44,Two year,1,Yes,Yes,Retained
+SLOTH-1396,12,93.64,1045.89,Month-to-month,2,Yes,Yes,Churned
+SLOTH-1397,50,113.44,5658.38,One year,0,No,No,Retained
+SLOTH-1398,35,112.56,3834.84,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1399,33,65.08,2160.35,Two year,1,Yes,Yes,Retained
+SLOTH-1400,33,31.32,1020.6,One year,0,No,Yes,Churned
+SLOTH-1401,61,118.48,7288.96,One year,4,Yes,No,Retained
+SLOTH-1402,51,103.89,5330.84,One year,6,No,No,Retained
+SLOTH-1403,43,32.47,1326.61,Month-to-month,4,Yes,Yes,Churned
+SLOTH-1404,12,112.08,1303.04,Month-to-month,3,Yes,Yes,Retained
+SLOTH-1405,67,106.99,7194.36,Two year,1,Yes,No,Retained
+SLOTH-1406,65,71.88,4714.55,Two year,4,No,Yes,Retained
+SLOTH-1407,33,79.13,2672.42,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1408,40,59.9,2456.73,Month-to-month,3,No,Yes,Retained
+SLOTH-1409,43,25.48,1091.16,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1410,44,53.52,2373.01,One year,0,No,Yes,Retained
+SLOTH-1411,29,100.29,2973.35,Two year,2,Yes,Yes,Retained
+SLOTH-1412,13,20.46,250.81,Month-to-month,2,No,Yes,Retained
+SLOTH-1413,12,53.35,659.19,Month-to-month,3,No,Yes,Retained
+SLOTH-1414,46,59.82,2735.38,Two year,1,No,No,Retained
+SLOTH-1415,2,73.74,119.93,One year,0,Yes,Yes,Retained
+SLOTH-1416,35,111.99,3922.07,Month-to-month,1,Yes,Yes,Retained
+SLOTH-1417,8,54.63,402.66,One year,3,Yes,Yes,Retained
+SLOTH-1418,26,54.7,1415.65,Month-to-month,1,No,Yes,Retained
+SLOTH-1419,34,93.75,3135.75,Month-to-month,1,No,Yes,Churned
+SLOTH-1420,7,65.22,447.04,One year,2,No,Yes,Retained
+SLOTH-1421,68,42.46,2909.7,One year,5,Yes,No,Retained
+SLOTH-1422,58,65.24,3754.48,Two year,4,Yes,No,Retained
+SLOTH-1423,29,34.09,989.07,One year,2,Yes,Yes,Retained
+SLOTH-1424,36,37.64,1362.01,One year,2,No,Yes,Retained
+SLOTH-1425,21,69.84,1489.27,Month-to-month,5,No,Yes,Churned
+SLOTH-1426,36,61.89,2221.36,Month-to-month,1,No,No,Churned
+SLOTH-1427,10,111.48,1169.09,Month-to-month,2,Yes,No,Churned
+SLOTH-1428,24,56.24,1244.71,Month-to-month,1,No,Yes,Churned
+SLOTH-1429,64,78.06,5142.73,One year,3,No,Yes,Retained
+SLOTH-1430,49,83.23,4034.71,Two year,0,Yes,No,Retained
+SLOTH-1431,36,21.31,787.33,Month-to-month,0,No,Yes,Churned
+SLOTH-1432,24,86.35,2025.48,Month-to-month,2,No,Yes,Retained
+SLOTH-1433,23,37.8,901.61,Two year,1,No,Yes,Retained
+SLOTH-1434,62,116.11,7212.65,Month-to-month,1,No,Yes,Retained
+SLOTH-1435,37,34.87,1257.65,One year,2,Yes,No,Retained
+SLOTH-1436,12,61.46,791.17,One year,1,Yes,No,Retained
+SLOTH-1437,55,28.53,1560.95,One year,2,No,Yes,Retained
+SLOTH-1438,13,119.69,1583.33,Month-to-month,2,Yes,Yes,Churned
+SLOTH-1439,23,70.22,1569.2,Month-to-month,3,No,Yes,Churned
+SLOTH-1440,30,79.54,2384.66,One year,3,No,Yes,Retained
+SLOTH-1441,17,26.71,554.24,One year,1,No,Yes,Churned
+SLOTH-1442,62,95.0,5938.15,Month-to-month,1,No,Yes,Churned
+SLOTH-1443,13,40.99,548.25,One year,1,Yes,Yes,Retained
+SLOTH-1444,59,109.81,6456.34,Month-to-month,2,Yes,Yes,Retained
+SLOTH-1445,19,40.51,773.06,One year,2,Yes,Yes,Retained
+SLOTH-1446,49,39.07,1924.31,Month-to-month,1,No,Yes,Churned
+SLOTH-1447,12,23.65,306.26,Two year,1,Yes,Yes,Retained
+SLOTH-1448,61,67.21,4045.98,Month-to-month,3,Yes,Yes,Retained
+SLOTH-1449,19,76.48,1486.54,Month-to-month,1,No,No,Retained
