@@ -202,7 +202,10 @@ async def upload_file(file: UploadFile = File(...)):
         raise
     except Exception as e:
         logger.error(f"Upload error: {e}", exc_info=True)
-        raise HTTPException(status_code=400, detail=f"Upload failed: {str(e)}")
+        # ✅ Close the string properly
+        raise HTTPException(
+            status_code=400, detail=f"Upload failed: {str(e)}"
+        )
 
 
 class BenchmarkRequest(BaseModel):
