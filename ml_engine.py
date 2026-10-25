@@ -194,7 +194,7 @@ class SlothMLEngine:
                 # Categorical column
                 X[col] = X[col].astype(str).fillna("Missing")
                 le = LabelEncoder()
-                X[col] = le.fit_transform(X[col])
+                X.loc[:, col] = le.fit_transform(X[col].astype(str))
                 self.label_encoders[col] = le
                 self.feature_stats[col] = {
                     "type": "categorical",
