@@ -174,7 +174,8 @@ class SlothMLEngine:
                 median_val = float(X[col].median()) if not pd.isna(X[col].median()) else 0.0
                 imputed = int(X[col].isna().sum())
                 meta["missing_imputed"] += imputed
-                X[col] = X[col].fillna(median_val)
+                # ✅ Safe in-place update using .loc
+                X.loc[:, col] = X[col].fillna(median_val)
                 min_val = float(X[col].min()) if not pd.isna(X[col].min()) else 0.0
                 max_val = float(X[col].max()) if not pd.isna(X[col].max()) else 1.0
                 if min_val == max_val:
