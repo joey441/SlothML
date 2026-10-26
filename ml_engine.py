@@ -314,15 +314,6 @@ class SlothMLEngine:
                         "rmse": round(float(rmse), 2),
                         "model_type": "TabPFN Foundation Regressor (In-Context)"
                     }
-
-                    y_pred = reg.predict(X_eval)
-                    r2 = r2_score(y_eval, y_pred)
-                    rmse = np.sqrt(mean_squared_error(y_eval, y_pred))
-                    tabpfn_metrics = {
-                        "r2_score": round(float(r2) * 100, 2),
-                        "rmse": round(float(rmse), 2),
-                        "model_type": "TabPFN Foundation Regressor (In-Context)"
-                    }
             except Exception as e:
                 logger.warning(f"TabPFN execution notice: {e}. Using instant surrogate.")
                 tabpfn_model = None

@@ -382,7 +382,7 @@ function setupSimulator(stats, importances) {
 
   // Pick top features according to importance
   const topFeatures = Object.keys(importances).slice(0, 5);
-  // If fewer than 4, add others from stats
+  // If fewer than 5, add others from stats
   Object.keys(stats).forEach((f) => {
     if (topFeatures.length < 5 && !topFeatures.includes(f)) {
       topFeatures.push(f);
@@ -408,43 +408,55 @@ function setupSimulator(stats, importances) {
 
       row.innerHTML = `
         <div class="flex items-center justify-between">
-          <span class="text-xs font-bold text-slate-200">${feat}</span>
-          <span class="font-mono text-xs text-cyan-400 font-semibold" id="val-${feat}">${currentVal}</span>
+          <span class="feat-label text-xs font-bold text-slate-200"></span>
+          <span class="val-display font-mono text-xs text-cyan-400 font-semibold"></span>
         </div>
-        <input type="range" id="slider-${feat}" min="${minVal}" max="${maxVal}" step="${step}" value="${currentVal}" class="cursor-pointer">
+        <input type="range" min="${minVal}" max="${maxVal}" step="${step}" value="${currentVal}" class="cursor-pointer w-full">
       `;
+      row.querySelector(".feat-label").textContent = feat;
+      const valDisplay = row.querySelector(".val-display");
+      valDisplay.textContent = currentVal;
+
       container.appendChild(row);
 
-      const slider = row.querySelector(`#slider-${feat}`);
-      slider.addEventListener("input", (e) => {
-        document.getElementById(`val-${feat}`).textContent = e.target.value;
-        currentValues[feat] = parseFloat(e.target.value);
-        triggerSimulation(currentValues);
-      });
+      const slider = row.querySelector("input[type='range']");
+      if (slider) {
+        slider.addEventListener("input", (e) => {
+          valDisplay.textContent = e.target.value;
+          currentValues[feat] = parseFloat(e.target.value);
+          triggerSimulation(currentValues);
+        });
+      }
     } else if (stat.type === "categorical") {
       const currentVal = stat.default;
       currentValues[feat] = currentVal;
 
-      let optionsHtml = "";
-      stat.classes.forEach((cls) => {
-        optionsHtml += `<option value="${cls}" ${cls === currentVal ? "selected" : ""}>${cls}</option>`;
-      });
-
       row.innerHTML = `
         <div class="flex items-center justify-between">
-          <span class="text-xs font-bold text-slate-200">${feat}</span>
+          <span class="feat-label text-xs font-bold text-slate-200"></span>
         </div>
-        <select id="select-${feat}" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-cyan-300 outline-none">
-          ${optionsHtml}
+        <select class="w-full bg-slate-950 border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-cyan-300 outline-none">
         </select>
       `;
+      row.querySelector(".feat-label").textContent = feat;
+      const select = row.querySelector("select");
+
+      (stat.classes || []).forEach((cls) => {
+        const opt = document.createElement("option");
+        opt.value = cls;
+        opt.textContent = cls;
+        if (cls === currentVal) opt.selected = true;
+        select.appendChild(opt);
+      });
+
       container.appendChild(row);
 
-      const select = row.querySelector(`#select-${feat}`);
-      select.addEventListener("change", (e) => {
-        currentValues[feat] = e.target.value;
-        triggerSimulation(currentValues);
-      });
+      if (select) {
+        select.addEventListener("change", (e) => {
+          currentValues[feat] = e.target.value;
+          triggerSimulation(currentValues);
+        });
+      }
     }
   });
 

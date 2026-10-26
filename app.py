@@ -171,14 +171,22 @@ async def upload_file(file: UploadFile = File(...)):
         if df is None or df.empty:
             raise HTTPException(status_code=400, detail="The uploaded spreadsheet contains no data rows.")
 
-        # Clean column names (strip whitespace, ensure no unnamed/empty headers)
+        # Clean column names (strip whitespace, ensure no unnamed/empty headers, resolve duplicate names)
         cleaned_cols = []
+        seen = {}
         for i, c in enumerate(df.columns):
             c_str = str(c).strip()
             if not c_str or c_str.lower().startswith("unnamed"):
-                cleaned_cols.append(f"Feature_{i+1}")
+                base = f"Feature_{i+1}"
             else:
-                cleaned_cols.append(c_str)
+                base = c_str
+
+            if base in seen:
+                seen[base] += 1
+                cleaned_cols.append(f"{base}_{seen[base]}")
+            else:
+                seen[base] = 1
+                cleaned_cols.append(base)
         df.columns = cleaned_cols
 
         current_data = df
